@@ -1,4 +1,4 @@
-yaml
+```yaml
    name: Daily Commit
 
    on:
@@ -26,3 +26,4 @@ yaml
              git add daily-log.txt
              git commit -m "Auto commit at $(date -u)" || echo "No changes to commit"
              git push
+   ```
